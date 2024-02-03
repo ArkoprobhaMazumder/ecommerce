@@ -1,0 +1,28 @@
+.feature-product-section{
+    width: 98vw;
+    height: 40vh;
+    background-color: whitesmoke;
+    margin: 3rem auto;
+}
+.feature-product-container{
+    width: 70%;
+    height: 95%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    align-items:flex-start;
+}
+.feature-product-container p{
+    margin-top: 10px;
+}
+.feature-product-container h1{
+    font-size: 30px;
+}
+.product-item-box{
+    width: 90%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

@@ -1,0 +1,7 @@
+.productlist-gridview-products{
+   padding: 5px;
+   display: flex;
+   flex-wrap: wrap;
+   align-items:flex-start;
+   gap:2rem;;
+}

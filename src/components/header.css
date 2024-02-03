@@ -1,0 +1,17 @@
+
+.header{
+   margin: 10px auto;
+   height:70px;
+   width:98%;
+   padding: 1px 15px;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   background-color: whitesmoke;
+}
+img{
+   width: 80px;
+   height: 60px;
+   border-radius: 50px;
+   left: 30px;
+}

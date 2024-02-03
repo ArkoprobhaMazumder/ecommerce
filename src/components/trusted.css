@@ -1,0 +1,23 @@
+.trusted-section{
+    
+    height: 25vh;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5rem auto;
+    gap:60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    word-spacing: 6px;
+}
+.icon-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:7rem;
+}
+.trusted-icon{
+    font-size: 2.5rem;
+    color: black;
+}

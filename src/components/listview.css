@@ -1,0 +1,68 @@
+.list-view-products-container{
+    margin: 0;
+    padding: 0;
+}
+.list-view-product-lists{
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+.list-view-product-lists-item{
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:2rem;
+    height: 250px;
+    border: 1px solid lightgray;
+    box-shadow: 0 2px 0 0 rgb(181, 179, 179);
+    margin-bottom: 1rem;
+}
+.list-view-product-lists-item figure{
+    width: 30%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list-view-product-lists-item figure:hover{
+    background-color:black;
+    transition:background-color 0.8s ;
+}
+ .list-view-product-lists-item-image{
+    width: 90%;
+    height: 90%;
+    border-radius:0;
+    cursor: pointer;
+}
+.list-view-product-lists-item-desc{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap:1.2rem;
+}
+.list-view-product-lists-item-desc h3{
+    font-size: 2.7rem;
+    font-style: italic;
+}
+.list-view-product-lists-item-desc p{
+    font-weight: bold;
+}
+.list-view-product-lists-item-desc-price{
+    font-size: 1.6rem;
+    font-weight: bolder; 
+    color: rgb(67, 66, 66); 
+} 
+.list-view-product-lists-item-desc button{
+    border: 1px solid blue;
+    outline: none;
+    padding: 10px 20px;
+    background: white;
+    color: black;
+    cursor: pointer;
+}
+.list-view-product-lists-item-desc button:hover{
+    background-color: blue;
+    color: white;
+    transition: background-color 1.2s;
+}

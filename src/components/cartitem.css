@@ -1,0 +1,25 @@
+.cart-item-product-box{
+    display: flex;
+    width: 76vw;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 2px 2px 2px whitesmoke;
+    padding: 12px 10px;
+    margin-bottom: 1rem;
+}
+.cart-item-product-box:hover{
+    transition: all 1s ease-in;
+}
+.cart-item-product-box-heading{
+    display: flex;
+    align-items: center;
+    gap:2px;
+    justify-content: center;
+}
+.cart-item-product-box-heading img{
+    border-radius: 0;
+}
+.cart-item-product-box-trash-icon{
+    cursor: pointer;
+    font-size:1.5rem;
+}

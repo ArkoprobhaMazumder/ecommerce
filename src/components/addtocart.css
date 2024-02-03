@@ -1,0 +1,35 @@
+.color-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+}
+.color-button-singleProduct{
+    border: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+    outline: none;
+    opacity: 0.5;
+}
+.color-button-singleProduct:hover{
+    opacity: 1;
+}
+.active{
+    opacity:1;
+}
+.color-change-icon{
+    color: white;
+}
+.cart-amount-button{
+    border: none;
+    outline:none;
+    padding: 10px 15px;
+    background: blue;
+    color: white;
+    font-size: 15px;
+    margin-top: 2rem;
+    cursor: pointer;
+}

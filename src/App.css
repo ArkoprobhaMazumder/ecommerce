@@ -1,38 +1,248 @@
-.App {
-  text-align: center;
+/* Contact page css start */
+.contact-section{
+    width:100%;
+    margin: 5rem auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.contact-heading{
+    color: rgb(94, 94, 94);
+    font-size: 30px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.contact-map{
+    width: 100%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.contact-form{
+    width: 70%;
+    text-align: center;
 }
-
-.App-link {
-  color: #61dafb;
+.contact-form form{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:2rem;
 }
+.contact-form form input{
+    width:35%;
+    text-align: center;
+    border: 1px solid black;
+    outline: none;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: 600;
+}
+.contact-form form textarea{
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 10px;
+}
+.contact-form form input[type=submit]{
+        width:15%;
+        padding: 10px 20px;
+        background-color: rgb(26, 26, 241);
+        border: none;
+        border-radius: 12px;
+        color: white;
+        cursor: pointer;
+}
+/* Contact page css end */
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Errorpage starts here */
+.error-section{
+    width: 98vw;
+    box-sizing: border-box;
+}
+.error-container{
+    width: 75%;
+    margin:4.5rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    height: 40vh;
+}
+.error-container h1{
+    font-size: 4rem;
+    font-weight: bolder;
+}
+.error-container h3{
+    font-weight: 800;
+    word-spacing: 6px;
+}
+.error-container button{
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: blue;
+    color: white;
+    font-size: large;
+}
+/* Eroor page ends here */
+
+/* SingleProductpage Strats here */
+
+.single-page-container{
+    width:95vw;
+    margin-top:4rem;
+    padding: 15px;
+}
+.single-page-content{
+width: 100%;
+margin: 5px auto;
+padding: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+gap:2rem;
+}
+.single-page-image-container{
+    width:47%
+}
+.single-page-product-data{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    gap:1rem;
+    font-size: 20px;
+}
+.single-page-product-data h1{
+    font-style: italic;
+}
+.single-product-price{
+    font-weight: bold;
+}
+.single-page-product-real-price{
+    color: blue;
+}
+.single-product-icon-box{
+    display: flex;
+    align-items: center;
+    gap:2rem;
+    border-bottom: 2px solid lightgrey;
+    margin-bottom: 15px;
+}
+.single-icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:5px;
+}
+.single-page-icon{
+    padding: 10px;
+    background: whitesmoke;
+    border-radius: 50%;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+}
+.single-availableity{
+    font-weight: bold;
+}
+.single-brand{
+    font-weight: bold;
+    font-size: 18px;
+}
+/* SingleProductpage ends here */
+
+/* Main Products page starts here */
+.products-page-main-container{
+    width:90vw;
+    display: flex;
+    align-items: center;
+    margin: 4rem auto;
+}
+.product-page-filter-section{
+    width: 30%;
+}
+.product-page-product-section{
+    width: 70%;
+}
+.product-section-bottom{
+    width: 100%;
+    margin-top: 3rem;
+}
+/* Main Products page ends here */
+
+/* Cart Page Starts Here */
+
+.cart-section-main-container{
+    position: relative;
+    width: 80vw;
+    text-align: center;
+    margin: 4rem auto;
+}
+.cart-section-item-lists{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:2rem;
+}
+.cart-section-item-lists-title{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    font-style: italic;
+    border-bottom: 1px solid lightgray;
+}
+.cart-section-buttons{
+    width: 100%;
+    padding: 2rem 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.cart-section-buttons-continue-btn{
+    border: none;
+    padding: 1rem 2rem;
+    background-color: blue;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+.cart-section-buttons-clear-button{
+    border: none;
+    background-color: orange;
+    padding: 1rem 2rem;
+    color: black;
+    font-weight: 500;
+    cursor: pointer;
+}
+.cart-section-no-item{
+    width: 70vw;
+    height: 45vh;
+    margin: 3rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+}
+.cart-section-total-bill{
+width: 250px;
+height: 200px;
+background-color: whitesmoke;
+padding: 1.5rem 2rem;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-left: 70%;
+margin-bottom: 2rem;
+cursor: pointer;
+font-size: 20px;
+}
+.cart-section-total-bill p{
+    display: flex;
+    align-items: center;
+    gap:2rem;
+    margin-top: 2rem;
 }

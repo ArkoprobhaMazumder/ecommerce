@@ -1,0 +1,33 @@
+.sort-product-containor{
+    width: 80%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sort-product-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:1rem;
+}
+.sort-product-buttons button{
+    font-size: 1.5rem;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+}
+.view-active{
+    color: rgb(170, 166, 166);
+}
+.sort-product-product{
+    font-size: 20px;
+    font-weight: 400;
+}
+.sort-product-sorting-box{
+   text-align: center;
+    width: 130px;
+}
+.sort-product-sorting-box form{
+width: 100%;
+}
