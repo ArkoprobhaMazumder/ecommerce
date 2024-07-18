@@ -1,44 +1,54 @@
 .hero-section{
-    width:98vw;
-    height: 20vw;
-    text-align: center;
-    margin: 10px auto;
-    box-shadow: 0 0 10px 0 whitesmoke;
-    margin-bottom: 7.2rem;
+    width: 100%;
+    height: 75vh;
+    background-image: url("../images/Shoping1.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 0 10px 0 #151414;
+    padding-top: 110px;
+}
+.hero-section::before{
+content: " ";
+width: 100%;
+height: 100%;
+background-color: linear-gradient(45deg,gray,transparent);
 }
 .hero-container{
     width: 100%;
-    height:100%;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap:150px;
+    position: relative;
 }
 .info-container{
-    width:20%;
-    height: 70%;
-    padding: 10px;
+    width: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    gap:10px;
+    background: transparent;
+    color: #fff;
+    align-items: flex-end;
+    z-index: 2;
+    justify-content: space-between;
 }
 .info-container .welcome-text{
-    font-size:22px;
-    font-weight: 300;
-    color:darkgray;
+    font-size: 40px;
+    font-weight: 550;
+    color: #080808d6;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .info-container p{
+    font-size: 20px;
+    font-weight: 500;
     word-spacing: 3px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 16px;
+   
 }
 .info-container h1{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: blueviolet;
-    font-size:42px;
+    color: #ffc107;
+    font-size: 70px;
 }
 .info-container-link{
     text-decoration: none;
@@ -53,4 +63,26 @@
     height:500px;
     width: 100%;
     object-fit: contain;
+}
+
+/* Responsive */
+@media(max-width:992px){
+    .info-container{
+        width: 90%;
+        align-items: center;
+        justify-content: center;
+    }
+    .info-container .welcome-text {
+        color: #f74806bd;
+    }
+    .info-container p{
+        word-spacing: 0px;
+    }
+}
+@media(max-width:768px){
+    .info-container{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
 }
