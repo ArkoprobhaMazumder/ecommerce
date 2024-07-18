@@ -11,6 +11,7 @@ const Footer = () => {
     return (
         <>
             <footer>
+                <div className="container">
                 <div className="footer-container footer-container-first">
                     <p>Ready to get Started? <br />Talk to us today</p>
                     <a href="#">
@@ -50,6 +51,7 @@ const Footer = () => {
                                 <p>TERMS & CONDITION</p>
                             
                             </div>
+                </div>
                 </div>
             </footer>
         </>

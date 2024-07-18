@@ -11,8 +11,9 @@ const FeatureProduct = () => {
   return (
    <>
     <section className="feature-product-section">
+        <div className="container">
         <div className="feature-product-container">
-            <p>CHEACK NOW!</p>
+            <p className="feature_section_title">CHEACK NOW!</p>
             <h1>Our Feature Services</h1>
             <div className="product-item-box">
                 {
@@ -21,6 +22,7 @@ const FeatureProduct = () => {
                     })
                 }
             </div>
+        </div>
         </div>
     </section>
    </>

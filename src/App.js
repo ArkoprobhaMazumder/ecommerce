@@ -1,5 +1,5 @@
 import {BrowserRouter as Router,Routes,Route} from "react-router-dom";
-import Header from "./components/Header";
+// import Header from "./components/Header";
 import About from "./About";
 import Products from "./Products";
 import Contact from "./Contact";
@@ -8,15 +8,15 @@ import Errorpage from "./Errorpage";
 import Home from "./Home";
 import SingleProduct from "./SingleProduct";
 import Footer from "./components/Footer";
-
+import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function App() {
   return (
-    <div>
-      <Router>
-        <Header />
+    <>
+      <Router basename="/" element={<Home/>}>
+        {/* <Header /> */}
         <Routes>
-          <Route path="/" element={<Home/>} />
+          <Route exact path="/" element={<Home/>} />
           <Route path="/about" element={<About/>} />
           <Route path="/products" element={<Products />} />
           <Route path="/contact" element={<Contact />} />
@@ -26,6 +26,6 @@ export default function App() {
         </Routes>
         <Footer/>
       </Router>
-    </div>
+    </>
   )
 }
